@@ -36,6 +36,7 @@ if test -n "${libm_machine_dir}"; then
 	powerpc) AC_CONFIG_SUBDIRS(powerpc) ;;
 	sparc) AC_CONFIG_SUBDIRS(sparc) ;;
 	mips) AC_CONFIG_SUBDIRS(mips) ;;
+	xtensa) AC_CONFIG_SUBDIRS(xtensa) ;;
   esac;
   if test "${use_libtool}" = "yes"; then
     machlib=${libm_machine_dir}/lib${libm_machine_dir}.${aext}
